@@ -1,0 +1,51 @@
+body {
+  background-color: lightblue;
+  text-align: center;
+  background-image: url("https://res.cloudinary.com/highereducation/images/f_auto,q_auto/v1662131498/ComputerScience.org/freecodecamp-review_9343e1b59/freecodecamp-review_9343e1b59.jpg?_i=AA");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+form {
+  max-width: 500px;
+  text-align: left;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: auto;
+}
+input {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+.input-element {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+select {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+}
+h1 {
+}
+
+#survey-form {
+  background-color: rgba(64, 111, 168, 0.7);
+  width: 1000px;
+}
+
+#submit {
+  background: green;
+  width: 500px;
+  height: 50px;
+}
+
+textarea {
+  height: 120px;
+}
